@@ -1,0 +1,7 @@
+D:\C# Bambang\C# Bambang\Praktik 2.1 Bambang C#\bin\Debug\Praktik 2.1 Bambang C#.exe.config
+D:\C# Bambang\C# Bambang\Praktik 2.1 Bambang C#\bin\Debug\Praktik 2.1 Bambang C#.exe
+D:\C# Bambang\C# Bambang\Praktik 2.1 Bambang C#\bin\Debug\Praktik 2.1 Bambang C#.pdb
+D:\C# Bambang\C# Bambang\Praktik 2.1 Bambang C#\obj\Debug\Praktik 2.1 Bambang C#.csproj.AssemblyReference.cache
+D:\C# Bambang\C# Bambang\Praktik 2.1 Bambang C#\obj\Debug\Praktik 2.1 Bambang C#.csproj.CoreCompileInputs.cache
+D:\C# Bambang\C# Bambang\Praktik 2.1 Bambang C#\obj\Debug\Praktik 2.1 Bambang C#.exe
+D:\C# Bambang\C# Bambang\Praktik 2.1 Bambang C#\obj\Debug\Praktik 2.1 Bambang C#.pdb
