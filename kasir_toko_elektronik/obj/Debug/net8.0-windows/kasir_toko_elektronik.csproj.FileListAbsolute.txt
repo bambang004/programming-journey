@@ -1,0 +1,17 @@
+D:\Projek Akhir\kasir_toko_elektronik\bin\Debug\net8.0-windows\kasir_toko_elektronik.exe
+D:\Projek Akhir\kasir_toko_elektronik\bin\Debug\net8.0-windows\kasir_toko_elektronik.deps.json
+D:\Projek Akhir\kasir_toko_elektronik\bin\Debug\net8.0-windows\kasir_toko_elektronik.runtimeconfig.json
+D:\Projek Akhir\kasir_toko_elektronik\bin\Debug\net8.0-windows\kasir_toko_elektronik.dll
+D:\Projek Akhir\kasir_toko_elektronik\bin\Debug\net8.0-windows\kasir_toko_elektronik.pdb
+D:\Projek Akhir\kasir_toko_elektronik\obj\Debug\net8.0-windows\kasir_toko_elektronik.FormLogin.resources
+D:\Projek Akhir\kasir_toko_elektronik\obj\Debug\net8.0-windows\kasir_toko_elektronik.csproj.GenerateResource.cache
+D:\Projek Akhir\kasir_toko_elektronik\obj\Debug\net8.0-windows\kasir_toko_elektronik.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projek Akhir\kasir_toko_elektronik\obj\Debug\net8.0-windows\kasir_toko_elektronik.AssemblyInfoInputs.cache
+D:\Projek Akhir\kasir_toko_elektronik\obj\Debug\net8.0-windows\kasir_toko_elektronik.AssemblyInfo.cs
+D:\Projek Akhir\kasir_toko_elektronik\obj\Debug\net8.0-windows\kasir_toko_elektronik.csproj.CoreCompileInputs.cache
+D:\Projek Akhir\kasir_toko_elektronik\obj\Debug\net8.0-windows\kasir_toko_elektronik.dll
+D:\Projek Akhir\kasir_toko_elektronik\obj\Debug\net8.0-windows\refint\kasir_toko_elektronik.dll
+D:\Projek Akhir\kasir_toko_elektronik\obj\Debug\net8.0-windows\kasir_toko_elektronik.pdb
+D:\Projek Akhir\kasir_toko_elektronik\obj\Debug\net8.0-windows\kasir_toko_elektronik.genruntimeconfig.cache
+D:\Projek Akhir\kasir_toko_elektronik\obj\Debug\net8.0-windows\ref\kasir_toko_elektronik.dll
+D:\Projek Akhir\kasir_toko_elektronik\obj\Debug\net8.0-windows\kasir_toko_elektronik.FormTransaksi.resources
