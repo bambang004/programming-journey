@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+h1{
+    color: pink;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+h2{
+    color: pink;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+p{
+    color: red;
+    line-height: 1.6;
+    padding: 30px;
+}   
