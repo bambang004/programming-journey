@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran SMK</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f0f5fa;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+
+        .form-container {
+            max-width: 750px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-top: 8px solid #008cb3;
+        }
+
+        h1 {
+            text-align: center;
+            color: #e95244;
+            text-transform: uppercase;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        fieldset {
+            border: 2px solid #b9873a;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            padding: 20px;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #c31e2c;
+            padding: 0 10px;
+            font-size: 18px;
+        }
+
+        .form-group {
+            display: flex;
+            margin-bottom: 15px;
+            align-items: center;
+        }
+
+        .form-group label {
+            flex: 1;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .form-group .input-area {
+            flex: 1;
+        }
+
+        input[type="text"], 
+        input[type="number"], 
+        textarea, 
+        select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Agar padding tidak merusak lebar */
+        }
+
+        textarea {
+            resize: vertical;
+            height: 60px;
+        }
+
+        .nilai-container {
+            display: grid;
+            grid-template-columns: 1fr 150px;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .total-section {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px dashed #2f1448;
+            text-align: right;
+        }
+
+        .total-section input {
+            width: 100px;
+            font-weight: bold;
+            background-color: #e7f1ff;
+        }
+
+        .btn-submit {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .btn-kirim {
+            width: 150px;
+            padding: 12px;
+            background-color: #20767c;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .btn-kirim:hover {
+            background-color: #003d80;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #666;
+            border-top: 1px solid #ddd;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+<div class="form-container">
+    <h1>Formulir Pendaftaran Calon Siswa Baru SMK N 1 KANDEMAN</h1>
+
+    <form action="">
+        
+        <fieldset>
+            <legend>BIODATA SISWA</legend>
+            
+            <div class="form-group">
+                <label>No. UN SMP/MTs/Sederajat</label>
+                <div class="input-area"><input type="number" placeholder="Masukkan Nomor UN"></div>
+            </div>
+
+            <div class="form-group">
+                <label>Nama Lengkap</label>
+                <div class="input-area"><input type="text" placeholder="Nama Sesuai Ijazah"></div>
+            </div>
+
+            <div class="form-group">
+                <label>Jenis Kelamin</label>
+                <div class="input-area">
+                    <input type="radio" name="jk" id="l"> <label for="l" style="font-weight: normal;">Laki-laki</label>
+                    <input type="radio" name="jk" id="p" style="margin-left: 20px;"> <label for="p" style="font-weight: normal;">Perempuan</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Nama Orangtua/Wali</label>
+                <div class="input-area"><input type="text" placeholder="Nama Sesuai KTP"></div>
+            </div>
+
+            <div class="form-group">
+                <label>Alamat <br><small style="font-weight: normal; font-size: 0.75rem;">(Sesuai KK/KTP/Surat Keterangan Domisili)</small></label>
+                <div class="input-area"><textarea placeholder="Alamat Sesuai KK"></textarea></div>
+            </div>
+
+            <div class="form-group">
+                <label>Kota/Kabupaten</label>
+                <div class="input-area"><input type="text" placeholder="Sesuai KK"></div>
+            </div>
+
+            <div class="form-group">
+                <label>Asal Sekolah</label>
+                <div class="input-area"><input type="text" placeholder="Sesuai Ijazah"></div>
+            </div>
+
+            <div class="form-group">
+                <label>Agama</label>
+                <div class="input-area">
+                    <select>
+                        <option selected disabled>Pilih Agama</option>
+                        <option>Islam</option>
+                        <option>Kristen</option>
+                        <option>Katolik</option>
+                        <option>Hindu</option>
+                        <option>Budha</option>
+                        <option>Khonghucu</option>
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>PENILAIAN</legend>
+            
+            <p style="font-weight: bold; font-size: 0.9rem; margin-bottom: 10px;">NILAI UJIAN NASIONAL (NUN)</p>
+            
+            <div class="nilai-container">
+                <div>1. Matematika</div>
+                <input type="number">
+                
+                <div>2. Bahasa Indonesia</div>
+                <input type="number">
+                
+                <div>3. Bahasa Inggris</div>
+                <input type="number">
+                
+                <div>4. Ilmu Pengetahuan Alam (IPA)</div>
+                <input type="number">
+            </div>
+
+            <div class="total-section">
+                <span>Jumlah NUN : </span>
+                <input type="number" readonly>
+            </div>
+
+            <p style="font-weight: bold; font-size: 0.9rem; margin: 15px 0 10px 0;">NILAI BONUS PRESTASI (NBP)</p>
+            <div class="total-section" style="border-top: none; padding: 0;">
+                <input type="number" placeholder="0">
+            </div>
+
+            <div class="total-section" style="border-top: 2px solid #0056b3; margin-top: 20px;">
+                <span style="font-weight: bold;">JUMLAH TOTAL NILAI AKHIR PPDB <br> <small>(Rumus : NUN + NBP)</small></span>
+                <input type="number" readonly style="width: 120px; height: 40px; font-size: 1.1rem;">
+            </div>
+        </fieldset>
+
+        <div class="btn-submit">
+            <input type="submit" value="KIrim" class="btn-kirim"> 
+            <input type="reset" value="Hapus" class="btn-kirim">
+        </div>
+    </form>
+</div>
+
+<footer>
+    BAMBANG SETYO AJI &copy; 2026 by X PPLG 1
+</footer>
+
+</body>
+</html>
