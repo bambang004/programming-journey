@@ -1,0 +1,20 @@
+body {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+    width: 50%;
+    background-color: lightgray;
+    padding: 20px;
+    color: rgb(19, 19, 19);
+    
+}
+.teks-em {
+    font-size: 2em;
+}
+.teks-rem {
+    font-size: 2rem;
+}
