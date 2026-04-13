@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: yellow;
+            padding: 20px;
+        }
+        .kiri-atas{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-transform: none;
+        }
+        .left-fixed{
+            position: fixed;
+            top: 50%;
+            left: 0;
+            background-color: blue;
+            color: white;
+            padding: 50px;
+            
+        }
+        .right-fixed{
+            position: fixed;
+            top: 50%;
+            right: 0;
+            background-color: red;
+            color: white;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Kiri atas</div>
+    <div class="left-fixed">Kiri</div>
+    <div class="right-fixed">Kanan</div>
+
+    <a href="#Box" class="kiri-atas">Atas</a>
+</body>
+</html>
